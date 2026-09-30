@@ -1,4 +1,4 @@
-package com.example.ejercicioconexionbd.connector;
+package com.example.ejercicioconexionbd.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

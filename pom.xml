@@ -38,7 +38,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.11</version>
+        </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
@@ -61,7 +67,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.ejercicioconexionbd/com.example.ejercicioconexionbd.HelloApplication
+                                com.example.ejercicioconexionbd/com.example.ejercicioconexionbd.LibroApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
